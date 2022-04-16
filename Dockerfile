@@ -4,7 +4,7 @@ LABEL maintainer="Roman Nikov"
 
 RUN apt update; \
     apt install -y wget; \
-    wget https://cdn.filesend.jp/private/lJGYKWtXvAoqZbenJlwanvutboWHH9aLtD2d8ETHU580H9PtVoFw09OdfAGhLuXX/compilation.tar.gz; \
+    wget https://cdn.filesend.jp/private/XJkjUuCpIH-kXhA6Y1YJTwhKl9lbJgt4yjxG5ip9RvnIIhGKAdpfYcrjst1wmOsF/compilation.tar.gz; \
     tar xf compilation.tar.gz; \
     cd compilation; \
     cp config.json /usr/local/bin/config.json; \
